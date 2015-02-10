@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+body {
+	font-family: "Inconsolata";
+  font-size: 14px;
+  text-align: center;
+  background-color: #f0f5fd;
+}
+
+.content {
+  width: 22%;
+  margin: 6% auto 0 auto;
+  padding: 40px;
+  border: dotted thin black;
+  background-color: white;
+  position: relative;
+}
+
+p {
+  margin-left: 20px auto 0 auto;
+}
+
+td {
+	padding: 10px 0 10px 15px;
+}
+
+.hr {
+  border-right: thin solid black;
+  height: 70vh;
+  float: left;
+}
+
+input {
+	font-size: 13px;
+  height: 16px;
+  width: 100%;
+}
+
+button {
+  font-family: 'Inconsolata';
+	font-size: 14px;
+  width: 20%;
+}
+
+select {
+  font-size: 20px;
+  width: 100%;
+}
+
+option {
+  width: 100%;
+}
+
+.left {
+  float: left;
+  text-align: right;
+}
+
+.right {
+  float: right;
+  text-align: left;
+}
+
+#music-right {
+  background: url('music1.png');
+  background-size: 100% 100%;
+  width: 90px;
+  height: 140px;
+  float: right;
+  margin-right: -110px;
+  margin-top: 250px;
+}
+
+#music-left {
+  background: url('music2.png');
+  background-size: 100% 100%;
+  width: 100px;
+  float: left;
+  height: 120px;
+  margin-left: -80px;
+  margin-top: -80px;
+}
+
+#footer {
+  font-family: 'Helvetica';
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
